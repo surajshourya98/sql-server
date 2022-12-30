@@ -1,0 +1,2 @@
+select personiD,lastname,firstname,address, count(*) as qty from table name
+GROUP BY  personiD,lastname,firstname,address having count (*)>1
